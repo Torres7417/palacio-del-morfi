@@ -126,6 +126,8 @@ No se trata simplemente de "digitalizar" los procesos actuales, sino de **transf
 
 ## 🗄️ Modelo de Datos (Esquema MongoDB)
 
+> Documentación completa disponible en [`/database/esquema.md`](./database/esquema.md)
+
 ### Colección: `platos`
 
 ```js
@@ -198,7 +200,7 @@ No se trata simplemente de "digitalizar" los procesos actuales, sino de **transf
 | Semana 4 | Desarrollo Frontend: Menú Digital (visualización de platos) | Código Frontend             |
 | Semana 5 | Desarrollo Frontend: Panel de Mozo (toma de pedidos)        | Código Frontend             |
 | Semana 6 | Desarrollo Backend: API de platos y pedidos                 | API REST                    |
-| Semana 7 | **ENTREGA 2** - Esquema BD + Módulos funcionando            | Código + Documentación      |
+| Semana 7 | **ENTREGA 2** - Esquema BD + Módulos + Arquitectura         | Documentación de diseño     |
 | Semana 8 | Desarrollo: Panel de Cocina y Gestión de Delivery           | Código                      |
 | Semana 9 | Integración Frontend-Backend, pruebas                       | Sistema integrado           |
 | Semana 10| Pruebas con usuarios reales (el restaurante), ajustes       | Feedback                    |
@@ -248,6 +250,25 @@ No se trata simplemente de "digitalizar" los procesos actuales, sino de **transf
 - **Base de Datos**: MongoDB, Mongoose
 - **Despliegue**: MongoDB Atlas, Render, Vercel
 - **Control de Versiones**: Git + GitHub
+
+---
+
+## 📐 Entrega 2 – Diseño y Módulos (27/09/2026)
+
+Esta entrega corresponde a la etapa de **análisis y diseño**.  
+**No se incluye código de implementación** (solo documentación y estructura).
+
+### Contenido de la entrega
+
+| Documento / Carpeta              | Ubicación                          | Descripción                                              |
+|----------------------------------|------------------------------------|----------------------------------------------------------|
+| Arquitectura del proyecto        | [`/docs/arquitectura.md`](./docs/arquitectura.md) | Capas, tecnologías definitivas y justificación           |
+| Listado de módulos               | [`/docs/modulos.md`](./docs/modulos.md) | Módulos MVP + Nice to have con prioridades               |
+| Esquema de Base de Datos         | [`/database/esquema.md`](./database/esquema.md) | Colecciones, campos, índices, relaciones y decisiones    |
+| Estructura del repositorio       | `/frontend`, `/backend`, `/database`, `/docs` | Carpetas creadas según la arquitectura elegida |
+
+### Estado
+✅ Documentación de diseño completa y lista para revisión del tutor.
 
 ---
 
